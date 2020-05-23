@@ -1,4 +1,4 @@
-env: master
+env: production
 server:
   port: 8082
 spring:
