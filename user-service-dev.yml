@@ -1,0 +1,18 @@
+env: dev
+server:
+  port: 8082
+spring:
+  application:
+    name: user-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/mytest?autoReconnect=true&autoReconnectForPools=true&useSSL=false&failOverReadOnly=false&allowMultiQueries=true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
