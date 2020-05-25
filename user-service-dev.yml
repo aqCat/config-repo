@@ -1,4 +1,4 @@
-env: dev
+env: aaa
 server:
   port: 8082
 spring:
