@@ -1,2 +1,8 @@
 aaa:
   ss: s
+#配置rabbitmq
+spring:
+  rabbitmq:
+    username: guest
+    password: Kingdom555
+    host: 121.36.106.24
