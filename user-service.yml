@@ -1,5 +1,5 @@
 aaa:
-  ss: bbb
+  ss: bvs
 #配置rabbitmq
 spring:
   rabbitmq:
